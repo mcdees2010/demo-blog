@@ -36,9 +36,6 @@ gem 'jbuilder', '~> 2.5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
-# make errors better looking
-gem 'better_errors', '~> 2.5'
-
 # bulma.io css
 gem 'bulma-rails', '~> 0.7.2'
 
@@ -57,6 +54,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  # make errors better looking
+  gem 'better_errors', '~> 2.5'
 end
 
 group :test do
